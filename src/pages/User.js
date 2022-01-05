@@ -223,8 +223,8 @@ const User = () => {
 
         {chartData && (
           <>
-            <div className="flex items-center w-5/6	 px-4 py-10 bg-cover card bg-base-200">
-              <h1 className="card-title text-3xl lg:text-2xl md:text-lg sm:text-lg">
+            <div className="flex items-center lg:w-5/6	 sm:w-full md:w-full px-4 py-10 bg-cover card bg-base-200">
+              <h1 className="card-title xl:text-3xl lg:text-xl md:text-lg sm:text-md">
                 Top Languages used by {name}
               </h1>
               <Bar
